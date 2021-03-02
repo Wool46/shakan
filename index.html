@@ -8,29 +8,42 @@
         <title>ホーム</title>
     </head>
     <body>
-        <div class="container">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-                <div class="navbar-nav mr-auto">
-                    <a class="navbar-brand" href="index.html">ホーム</a>
-                    <a class="nav-item nav-link active" href="#sec1">sec1</a>
-                    <a class="nav-item nav-link active" href="#sec2">sec2</a>
-                </div>
-            </nav>
-        </div>
+        <main>
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                    <div class="navbar-nav mr-auto">
+                        <a class="navbar-brand" href="index.html">ホーム</a>
+                        <a class="nav-item nav-link active" href="#sec1">sec1</a>
+                        <a class="nav-item nav-link active" href="#sec2">sec2</a>
+                    </div>
+                </nav>
+            </div>
 
-        <div class="sec-height">
-            <section class=".container-fluid bg-warning" id="sec1">
-                <br><br><br><br><br>
-                aaaa
-            </section>
-        </div>
+            <div class="container"><!-- menuバー分下げる用の記述 -->
+                <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+                    <div class="navbar-nav mr-auto">
+                        <a class="navbar-brand" href="">ホーム</a>
+                        <a class="nav-item nav-link active" href="">sec1</a>
+                        <a class="nav-item nav-link active" href="">sec2</a>
+                    </div>
+                </nav>
+            </div>
+
+
+            <div class="sec-height">
+                <section class=".container-fluid bg-warning" id="sec1">
+                    aaaa
+                </section>
+            </div>
+            
+            <div class="sec-height">
+                <section class=".container-fluid bg-danger" id="sec2">
+                    iiii
+                </section>
+
+            </div>
+        </main>
         
-        <div class="sec-height">
-            <section class=".container-fluid bg-danger" id="sec2">
-                iiii
-            </section>
-
-        </div>
     
     </body>
 </html>
